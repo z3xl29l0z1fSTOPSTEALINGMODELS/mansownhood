@@ -1,0 +1,545 @@
+<?xml version="1.0"?>
+<roblox version="4">
+  <Meta name="ExplicitAutoJoints">true</Meta>
+<Item class="Model" referent="1">
+  <Properties>
+    <CFrame name="WorldPivot"><X>-91</X><Y>34.25395965576172</Y><Z>-9</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>1</R20><R21>0</R21><R22>0</R22></CFrame>
+    <Enum name="LevelOfDetail">0</Enum>
+    <string name="Name"><![CDATA[bounder]]></string>
+    <string name="ClassName"><![CDATA[Model]]></string>
+    <bool name="RobloxLocked">false</bool>
+    <double name="SourceAssetId">-1</double>
+    <bool name="Archivable">true</bool>
+    <Ref name="PrimaryPart">0_446228</Ref>
+  </Properties>
+  <Item class="Part" referent="1">
+    <Properties>
+      <double name="RightParamB">0.5</double>
+      <bool name="Anchored">true</bool>
+      <Enum name="RightSurface">0</Enum>
+      <double name="BottomParamB">0.5</double>
+      <Enum name="FormFactor">1</Enum>
+      <double name="FrontParamB">0.5</double>
+      <Enum name="BottomSurface">0</Enum>
+      <bool name="CanCollide">false</bool>
+      <double name="RootPriority">0</double>
+      <bool name="EnableFluidForces">true</bool>
+      <Enum name="LeftSurface">0</Enum>
+      <double name="FrontParamA">-0.5</double>
+      <string name="ClassName"><![CDATA[Part]]></string>
+      <double name="BackParamB">0.5</double>
+      <string name="MaterialVariant"><![CDATA[]]></string>
+      <double name="RightParamA">-0.5</double>
+      <bool name="CanQuery">true</bool>
+      <Color3uint8 name="Color">10724005</Color3uint8>
+      <double name="SourceAssetId">-1</double>
+      <double name="CollisionGroupId">0</double>
+      <Vector3 name="Velocity"><X>0</X><Y>0</Y><Z>0</Z></Vector3>
+      <double name="Transparency">1</double>
+      <Enum name="TopSurface">0</Enum>
+      <Vector3 name="RotVelocity"><X>0</X><Y>0</Y><Z>0</Z></Vector3>
+      <double name="TopParamB">0.5</double>
+      <double name="BottomParamA">-0.5</double>
+      <Enum name="Material">256</Enum>
+      <bool name="Archivable">true</bool>
+      <Vector3 name="Size"><X>6.5079240798950195</X><Y>6.5079240798950195</Y><Z>6.5079240798950195</Z></Vector3>
+      <double name="TopParamA">-0.5</double>
+      <Enum name="BackSurface">0</Enum>
+      <Enum name="Shape">0</Enum>
+      <double name="BackParamA">-0.5</double>
+      <double name="Reflectance">0</double>
+      <CFrame name="CFrame"><X>-91</X><Y>34.25395965576172</Y><Z>-9</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>1</R20><R21>0</R21><R22>0</R22></CFrame>
+      <bool name="CanTouch">true</bool>
+      <bool name="Massless">false</bool>
+      <bool name="Locked">false</bool>
+      <Color3uint8 name="BrickColor">10724005</Color3uint8>
+      <string name="Name"><![CDATA[RushNew]]></string>
+      <double name="LeftParamB">0.5</double>
+      <bool name="RobloxLocked">false</bool>
+      <double name="LeftParamA">-0.5</double>
+      <bool name="CastShadow">true</bool>
+      <Enum name="FrontSurface">0</Enum>
+    </Properties>
+    <Item class="BodyVelocity" referent="1">
+      <Properties>
+        <string name="Name"><![CDATA[BodyVelocity]]></string>
+        <string name="ClassName"><![CDATA[BodyVelocity]]></string>
+        <bool name="RobloxLocked">false</bool>
+        <double name="SourceAssetId">-1</double>
+        <bool name="Archivable">true</bool>
+      </Properties>
+    </Item>
+    <Item class="ParticleEmitter" referent="1">
+      <Properties>
+        <NumberSequence name="Size"><![CDATA[0 0.6 0 0.75 0.1 0 1 0.21 0 ]]></NumberSequence>
+        <NumberSequence name="Squash"><![CDATA[0 0 0 0.1 0.8 0 0.14 -0.35 0 0.23 2.1 0 0.35 -0.11 0 0.6 1.56 0 0.75 -1.1 0 0.8 0.3 0 0.89 -2.342 0 0.9 1.53 0 0.93 -0.85 0 0.96 1 0 0.965 -0.09 0 1 0 0 ]]></NumberSequence>
+        <ColorSequence name="Color"><![CDATA[0 0.130249 0.0726717 1 0 1 0.12545 0.0699937 0.963149 0 ]]></ColorSequence>
+        <double name="SourceAssetId">-1</double>
+        <double name="ZOffset">10</double>
+        <double name="TimeScale">1</double>
+        <double name="VelocitySpread">3000</double>
+        <Enum name="Orientation">1</Enum>
+        <Enum name="FlipbookMode">0</Enum>
+        <NumberRange name="Lifetime"><Min>1</Min><Max>1</Max></NumberRange>
+        <NumberRange name="Speed"><Min>50</Min><Max>50</Max></NumberRange>
+        <Enum name="FlipbookLayout">0</Enum>
+        <bool name="Archivable">true</bool>
+        <Vector2 name="SpreadAngle"><![CDATA[3000, 3000]]></Vector2>
+        <bool name="Enabled">true</bool>
+        <Vector3 name="Acceleration"><X>0</X><Y>0</Y><Z>0</Z></Vector3>
+        <NumberRange name="RotSpeed"><Min>5</Min><Max>5</Max></NumberRange>
+        <Enum name="EmissionDirection">1</Enum>
+        <string name="Texture"><![CDATA[rbxassetid://669133414]]></string>
+        <bool name="LockedToPart">true</bool>
+        <double name="Rate">150000000</double>
+        <double name="LightInfluence">0</double>
+        <double name="VelocityInheritance">0</double>
+        <NumberSequence name="Transparency"><![CDATA[0 0.5 0 0.845 0.5 0 1 1 0 ]]></NumberSequence>
+        <string name="Name"><![CDATA[dust thing]]></string>
+        <string name="ClassName"><![CDATA[ParticleEmitter]]></string>
+        <bool name="RobloxLocked">false</bool>
+        <double name="LightEmission">0</double>
+        <NumberRange name="Rotation"><Min>-360</Min><Max>360</Max></NumberRange>
+        <double name="Drag">1000</double>
+      </Properties>
+    </Item>
+    <Item class="Attachment" referent="1">
+      <Properties>
+        <bool name="Visible">false</bool>
+        <Vector3 name="WorldRotation"><X>-0</X><Y>-90</Y><Z>0</Z></Vector3>
+        <CFrame name="CFrame"><X>0</X><Y>4.459421157836914</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CFrame>
+        <Vector3 name="WorldPosition"><X>-91</X><Y>38.71337890625</Y><Z>-9</Z></Vector3>
+        <Vector3 name="Axis"><X>1</X><Y>0</Y><Z>0</Z></Vector3>
+        <Vector3 name="Rotation"><X>-0</X><Y>0</Y><Z>-0</Z></Vector3>
+        <Vector3 name="SecondaryAxis"><X>0</X><Y>1</Y><Z>0</Z></Vector3>
+        <string name="Name"><![CDATA[Attachment]]></string>
+        <string name="ClassName"><![CDATA[Attachment]]></string>
+        <bool name="RobloxLocked">false</bool>
+        <Vector3 name="Position"><X>0</X><Y>4.459421157836914</Y><Z>0</Z></Vector3>
+        <bool name="Archivable">true</bool>
+        <double name="SourceAssetId">-1</double>
+      </Properties>
+      <Item class="ParticleEmitter" referent="1">
+        <Properties>
+          <NumberSequence name="Size"><![CDATA[0 5 0 0.427914 6 0 1 0 0 ]]></NumberSequence>
+          <NumberSequence name="Squash"><![CDATA[0 0 0 1 0 0 ]]></NumberSequence>
+          <ColorSequence name="Color"><![CDATA[0 0.000103607 0 0.97 0 1 0.00674973 0 0.97 0 ]]></ColorSequence>
+          <double name="SourceAssetId">-1</double>
+          <double name="ZOffset">0</double>
+          <double name="TimeScale">1</double>
+          <double name="VelocitySpread">-100</double>
+          <Enum name="Orientation">0</Enum>
+          <Enum name="FlipbookMode">0</Enum>
+          <NumberRange name="Lifetime"><Min>0.10000000149011612</Min><Max>5</Max></NumberRange>
+          <NumberRange name="Speed"><Min>-10</Min><Max>10</Max></NumberRange>
+          <Enum name="FlipbookLayout">0</Enum>
+          <bool name="Archivable">true</bool>
+          <Vector2 name="SpreadAngle"><![CDATA[-100, 100]]></Vector2>
+          <bool name="Enabled">true</bool>
+          <Vector3 name="Acceleration"><X>0</X><Y>-0.10000000149011612</Y><Z>0</Z></Vector3>
+          <NumberRange name="RotSpeed"><Min>-50</Min><Max>50</Max></NumberRange>
+          <Enum name="EmissionDirection">1</Enum>
+          <string name="Texture"><![CDATA[rbxassetid://4770542473]]></string>
+          <bool name="LockedToPart">false</bool>
+          <double name="Rate">1200</double>
+          <double name="LightInfluence">1</double>
+          <double name="VelocityInheritance">0</double>
+          <NumberSequence name="Transparency"><![CDATA[0 0 0 0.473094 0.33125 0 0.846039 0.45 0.08125 1 1 0 ]]></NumberSequence>
+          <string name="Name"><![CDATA[Smoke]]></string>
+          <string name="ClassName"><![CDATA[ParticleEmitter]]></string>
+          <bool name="RobloxLocked">false</bool>
+          <double name="LightEmission">9</double>
+          <NumberRange name="Rotation"><Min>-360</Min><Max>360</Max></NumberRange>
+          <double name="Drag">2</double>
+        </Properties>
+      </Item>
+      <Item class="ParticleEmitter" referent="1">
+        <Properties>
+          <NumberSequence name="Size"><![CDATA[0 5.625 0 0.0075 6.375 0 0.0225 6.5625 0 0.0412262 7.375 0 0.0438689 7.4375 0 0.045 6.9375 0 0.06 7.625 0 0.07 7.75 0 0.08375 7.5625 0 0.1 8.375 0 0.11 7.875 0 0.12875 8.125 0 0.137949 7.75 0 0.16625 7.5625 0 0.230673 7.6875 0 0.24813 7.1875 0 0.3225 8.0625 0 0.389535 7.75 0 0.4175 7.8125 0 1 0 0 ]]></NumberSequence>
+          <NumberSequence name="Squash"><![CDATA[0 0.01 0 1 0.01 0 ]]></NumberSequence>
+          <ColorSequence name="Color"><![CDATA[0 1 0.281662 0.281662 0 1 1 0.0978966 0.571271 0 ]]></ColorSequence>
+          <double name="SourceAssetId">-1</double>
+          <double name="ZOffset">7</double>
+          <double name="TimeScale">0.20000000298023224</double>
+          <double name="VelocitySpread">360</double>
+          <Enum name="Orientation">0</Enum>
+          <Enum name="FlipbookMode">0</Enum>
+          <NumberRange name="Lifetime"><Min>0.20000000298023224</Min><Max>0.5</Max></NumberRange>
+          <NumberRange name="Speed"><Min>0.019999999552965164</Min><Max>0.029999999329447746</Max></NumberRange>
+          <Enum name="FlipbookLayout">0</Enum>
+          <bool name="Archivable">true</bool>
+          <Vector2 name="SpreadAngle"><![CDATA[360, 360]]></Vector2>
+          <bool name="Enabled">true</bool>
+          <Vector3 name="Acceleration"><X>0</X><Y>0</Y><Z>0</Z></Vector3>
+          <NumberRange name="RotSpeed"><Min>0</Min><Max>0</Max></NumberRange>
+          <Enum name="EmissionDirection">1</Enum>
+          <string name="Texture"><![CDATA[rbxassetid://94677989733873]]></string>
+          <bool name="LockedToPart">true</bool>
+          <double name="Rate">80</double>
+          <double name="LightInfluence">0</double>
+          <double name="VelocityInheritance">0</double>
+          <NumberSequence name="Transparency"><![CDATA[0 0 0 0.2 1 0 1 1 0 ]]></NumberSequence>
+          <string name="Name"><![CDATA[Eyes]]></string>
+          <string name="ClassName"><![CDATA[ParticleEmitter]]></string>
+          <bool name="RobloxLocked">false</bool>
+          <double name="LightEmission">-0.5</double>
+          <NumberRange name="Rotation"><Min>0</Min><Max>0</Max></NumberRange>
+          <double name="Drag">0.10000000149011612</double>
+        </Properties>
+      </Item>
+      <Item class="ParticleEmitter" referent="1">
+        <Properties>
+          <NumberSequence name="Size"><![CDATA[0 5.625 0 0.0075 6.375 0 0.0225 6.5625 0 0.0412262 7.375 0 0.0438689 7.4375 0 0.045 6.9375 0 0.06 7.625 0 0.07 7.75 0 0.08375 7.5625 0 0.1 8.375 0 0.11 7.875 0 0.12875 8.125 0 0.137949 7.75 0 0.16625 7.5625 0 0.230673 7.6875 0 0.24813 7.1875 0 0.3225 8.0625 0 0.389535 7.75 0 0.4175 7.8125 0 1 0 0 ]]></NumberSequence>
+          <NumberSequence name="Squash"><![CDATA[0 0.01 0 1 0.01 0 ]]></NumberSequence>
+          <ColorSequence name="Color"><![CDATA[0 0.0013485 0 1 0 1 1 1 1 0 ]]></ColorSequence>
+          <double name="SourceAssetId">-1</double>
+          <double name="ZOffset">4</double>
+          <double name="TimeScale">1</double>
+          <double name="VelocitySpread">360</double>
+          <Enum name="Orientation">0</Enum>
+          <Enum name="FlipbookMode">0</Enum>
+          <NumberRange name="Lifetime"><Min>1</Min><Max>1</Max></NumberRange>
+          <NumberRange name="Speed"><Min>1</Min><Max>1</Max></NumberRange>
+          <Enum name="FlipbookLayout">0</Enum>
+          <bool name="Archivable">true</bool>
+          <Vector2 name="SpreadAngle"><![CDATA[360, 360]]></Vector2>
+          <bool name="Enabled">true</bool>
+          <Vector3 name="Acceleration"><X>0</X><Y>0</Y><Z>0</Z></Vector3>
+          <NumberRange name="RotSpeed"><Min>0</Min><Max>0</Max></NumberRange>
+          <Enum name="EmissionDirection">1</Enum>
+          <string name="Texture"><![CDATA[rbxassetid://120745602644631]]></string>
+          <bool name="LockedToPart">true</bool>
+          <double name="Rate">50</double>
+          <double name="LightInfluence">0</double>
+          <double name="VelocityInheritance">0</double>
+          <NumberSequence name="Transparency"><![CDATA[0 0 0 0.593 1 0 1 1 0 ]]></NumberSequence>
+          <string name="Name"><![CDATA[Face]]></string>
+          <string name="ClassName"><![CDATA[ParticleEmitter]]></string>
+          <bool name="RobloxLocked">false</bool>
+          <double name="LightEmission">0.5</double>
+          <NumberRange name="Rotation"><Min>0</Min><Max>0</Max></NumberRange>
+          <double name="Drag">0.10000000149011612</double>
+        </Properties>
+      </Item>
+      <Item class="ParticleEmitter" referent="1">
+        <Properties>
+          <NumberSequence name="Size"><![CDATA[0 9 0 0.5 15 0 1 1 0 ]]></NumberSequence>
+          <NumberSequence name="Squash"><![CDATA[0 1.48 0 0.23 1.358 0 0.349 1.248 0 0.5 1.228 0 1 0.98 0 ]]></NumberSequence>
+          <ColorSequence name="Color"><![CDATA[0 0 0.108445 0.255 0 1 0.231267 0.239804 0.375 0 ]]></ColorSequence>
+          <double name="SourceAssetId">-1</double>
+          <double name="ZOffset">0</double>
+          <double name="TimeScale">1</double>
+          <double name="VelocitySpread">0</double>
+          <Enum name="Orientation">2</Enum>
+          <Enum name="FlipbookMode">0</Enum>
+          <NumberRange name="Lifetime"><Min>1</Min><Max>1</Max></NumberRange>
+          <NumberRange name="Speed"><Min>5</Min><Max>50</Max></NumberRange>
+          <Enum name="FlipbookLayout">0</Enum>
+          <bool name="Archivable">true</bool>
+          <Vector2 name="SpreadAngle"><![CDATA[0, 0]]></Vector2>
+          <bool name="Enabled">true</bool>
+          <Vector3 name="Acceleration"><X>0</X><Y>0</Y><Z>0</Z></Vector3>
+          <NumberRange name="RotSpeed"><Min>-100</Min><Max>100</Max></NumberRange>
+          <Enum name="EmissionDirection">1</Enum>
+          <string name="Texture"><![CDATA[rbxassetid://14293650911]]></string>
+          <bool name="LockedToPart">true</bool>
+          <double name="Rate">130</double>
+          <double name="LightInfluence">0</double>
+          <double name="VelocityInheritance">0</double>
+          <NumberSequence name="Transparency"><![CDATA[0 1 0 0.2 0 0 0.4 0 0 0.7 1 0 1 1 0 ]]></NumberSequence>
+          <string name="Name"><![CDATA[thing]]></string>
+          <string name="ClassName"><![CDATA[ParticleEmitter]]></string>
+          <bool name="RobloxLocked">false</bool>
+          <double name="LightEmission">0.6499999761581421</double>
+          <NumberRange name="Rotation"><Min>-360</Min><Max>360</Max></NumberRange>
+          <double name="Drag">20</double>
+        </Properties>
+      </Item>
+      <Item class="ParticleEmitter" referent="1">
+        <Properties>
+          <NumberSequence name="Size"><![CDATA[0 15 0 1 0 0 ]]></NumberSequence>
+          <NumberSequence name="Squash"><![CDATA[0 0 0 0.7 0 0 1 3 0 ]]></NumberSequence>
+          <ColorSequence name="Color"><![CDATA[0 0.278334 0.463436 1 0 1 0.225563 0.151462 0.815 0 ]]></ColorSequence>
+          <double name="SourceAssetId">-1</double>
+          <double name="ZOffset">-1</double>
+          <double name="TimeScale">1</double>
+          <double name="VelocitySpread">360</double>
+          <Enum name="Orientation">0</Enum>
+          <Enum name="FlipbookMode">0</Enum>
+          <NumberRange name="Lifetime"><Min>1</Min><Max>1</Max></NumberRange>
+          <NumberRange name="Speed"><Min>0</Min><Max>5</Max></NumberRange>
+          <Enum name="FlipbookLayout">0</Enum>
+          <bool name="Archivable">true</bool>
+          <Vector2 name="SpreadAngle"><![CDATA[360, 360]]></Vector2>
+          <bool name="Enabled">true</bool>
+          <Vector3 name="Acceleration"><X>0</X><Y>0</Y><Z>0</Z></Vector3>
+          <NumberRange name="RotSpeed"><Min>-20</Min><Max>20</Max></NumberRange>
+          <Enum name="EmissionDirection">1</Enum>
+          <string name="Texture"><![CDATA[rbxthumb://type=Asset&id=14293650911&w=420&h=420]]></string>
+          <bool name="LockedToPart">true</bool>
+          <double name="Rate">50</double>
+          <double name="LightInfluence">5</double>
+          <double name="VelocityInheritance">0</double>
+          <NumberSequence name="Transparency"><![CDATA[0 1 0 0.6 0.3 0 1 1 0 ]]></NumberSequence>
+          <string name="Name"><![CDATA[dindon]]></string>
+          <string name="ClassName"><![CDATA[ParticleEmitter]]></string>
+          <bool name="RobloxLocked">false</bool>
+          <double name="LightEmission">0</double>
+          <NumberRange name="Rotation"><Min>-180</Min><Max>180</Max></NumberRange>
+          <double name="Drag">-3</double>
+        </Properties>
+      </Item>
+      <Item class="ParticleEmitter" referent="1">
+        <Properties>
+          <NumberSequence name="Size"><![CDATA[0 0 0 0.1 30 0 1 30 0 ]]></NumberSequence>
+          <NumberSequence name="Squash"><![CDATA[0 0 0 1 0 0 ]]></NumberSequence>
+          <ColorSequence name="Color"><![CDATA[0 0.248792 0.811162 1 0 1 0.467635 0.670176 1 0 ]]></ColorSequence>
+          <double name="SourceAssetId">-1</double>
+          <double name="ZOffset">-1</double>
+          <double name="TimeScale">1</double>
+          <double name="VelocitySpread">0</double>
+          <Enum name="Orientation">0</Enum>
+          <Enum name="FlipbookMode">0</Enum>
+          <NumberRange name="Lifetime"><Min>5</Min><Max>10</Max></NumberRange>
+          <NumberRange name="Speed"><Min>0</Min><Max>0</Max></NumberRange>
+          <Enum name="FlipbookLayout">0</Enum>
+          <bool name="Archivable">true</bool>
+          <Vector2 name="SpreadAngle"><![CDATA[0, 0]]></Vector2>
+          <bool name="Enabled">true</bool>
+          <Vector3 name="Acceleration"><X>0</X><Y>0</Y><Z>0</Z></Vector3>
+          <NumberRange name="RotSpeed"><Min>0</Min><Max>0</Max></NumberRange>
+          <Enum name="EmissionDirection">1</Enum>
+          <string name="Texture"><![CDATA[rbxassetid://1084955488]]></string>
+          <bool name="LockedToPart">true</bool>
+          <double name="Rate">3</double>
+          <double name="LightInfluence">2</double>
+          <double name="VelocityInheritance">0</double>
+          <NumberSequence name="Transparency"><![CDATA[0 0.354 0 0.1 1 0 1 1 0 ]]></NumberSequence>
+          <string name="Name"><![CDATA[ParticleEmitter2]]></string>
+          <string name="ClassName"><![CDATA[ParticleEmitter]]></string>
+          <bool name="RobloxLocked">false</bool>
+          <double name="LightEmission">1</double>
+          <NumberRange name="Rotation"><Min>0</Min><Max>0</Max></NumberRange>
+          <double name="Drag">255</double>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Sound" referent="1">
+      <Properties>
+        <double name="Pitch">1</double>
+        <double name="EmitterSize">10</double>
+        <Enum name="RollOffMode">0</Enum>
+        <double name="SourceAssetId">-1</double>
+        <double name="TimePosition">0</double>
+        <double name="PlaybackSpeed">1</double>
+        <double name="Volume">0.30000001192092896</double>
+        <bool name="Archivable">true</bool>
+        <bool name="Playing">false</bool>
+        <bool name="Looped">false</bool>
+        <double name="PlaybackLoudness">0</double>
+        <double name="MinDistance">10</double>
+        <double name="MaxDistance">1000</double>
+        <string name="Name"><![CDATA[jumpscare]]></string>
+        <string name="ClassName"><![CDATA[Sound]]></string>
+        <string name="SoundId"><![CDATA[rbxassetid://5263560896]]></string>
+        <RBXScriptSignal name="Paused"><![CDATA[Signal Paused]]></RBXScriptSignal>
+        <bool name="RobloxLocked">false</bool>
+        <bool name="PlayOnRemove">false</bool>
+      </Properties>
+      <Item class="DistortionSoundEffect" referent="1">
+        <Properties>
+          <string name="Name"><![CDATA[DistortionSoundEffect]]></string>
+          <string name="ClassName"><![CDATA[DistortionSoundEffect]]></string>
+          <bool name="RobloxLocked">false</bool>
+          <double name="SourceAssetId">-1</double>
+          <bool name="Archivable">true</bool>
+        </Properties>
+      </Item>
+      <Item class="EchoSoundEffect" referent="1">
+        <Properties>
+          <string name="Name"><![CDATA[EchoSoundEffect]]></string>
+          <string name="ClassName"><![CDATA[EchoSoundEffect]]></string>
+          <bool name="RobloxLocked">false</bool>
+          <double name="SourceAssetId">-1</double>
+          <bool name="Archivable">true</bool>
+        </Properties>
+      </Item>
+      <Item class="TremoloSoundEffect" referent="1">
+        <Properties>
+          <string name="Name"><![CDATA[TremoloSoundEffect]]></string>
+          <string name="ClassName"><![CDATA[TremoloSoundEffect]]></string>
+          <bool name="RobloxLocked">false</bool>
+          <double name="SourceAssetId">-1</double>
+          <bool name="Archivable">true</bool>
+        </Properties>
+      </Item>
+      <Item class="EqualizerSoundEffect" referent="1">
+        <Properties>
+          <string name="Name"><![CDATA[EqualizerSoundEffect]]></string>
+          <string name="ClassName"><![CDATA[EqualizerSoundEffect]]></string>
+          <bool name="RobloxLocked">false</bool>
+          <double name="SourceAssetId">-1</double>
+          <bool name="Archivable">true</bool>
+        </Properties>
+      </Item>
+      <Item class="FlangeSoundEffect" referent="1">
+        <Properties>
+          <string name="Name"><![CDATA[FlangeSoundEffect]]></string>
+          <string name="ClassName"><![CDATA[FlangeSoundEffect]]></string>
+          <bool name="RobloxLocked">false</bool>
+          <double name="SourceAssetId">-1</double>
+          <bool name="Archivable">true</bool>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="PointLight" referent="1">
+      <Properties>
+        <bool name="Enabled">true</bool>
+        <bool name="Shadows">false</bool>
+        <Color3uint8 name="Color">27903</Color3uint8>
+        <double name="SourceAssetId">-1</double>
+        <double name="Range">16</double>
+        <string name="Name"><![CDATA[PointLight]]></string>
+        <string name="ClassName"><![CDATA[PointLight]]></string>
+        <bool name="RobloxLocked">false</bool>
+        <double name="Brightness">100</double>
+        <bool name="Archivable">true</bool>
+      </Properties>
+    </Item>
+    <Item class="Sound" referent="1">
+      <Properties>
+        <double name="Pitch">1.100000023841858</double>
+        <double name="EmitterSize">10</double>
+        <Enum name="RollOffMode">1</Enum>
+        <double name="SourceAssetId">-1</double>
+        <double name="TimePosition">0.007</double>
+        <double name="PlaybackSpeed">1.100000023841858</double>
+        <double name="Volume">3</double>
+        <bool name="Archivable">true</bool>
+        <bool name="Playing">true</bool>
+        <bool name="Looped">true</bool>
+        <double name="PlaybackLoudness">0</double>
+        <double name="MinDistance">10</double>
+        <double name="MaxDistance">150</double>
+        <string name="Name"><![CDATA[far]]></string>
+        <string name="ClassName"><![CDATA[Sound]]></string>
+        <string name="SoundId"><![CDATA[rbxassetid://116456025793787]]></string>
+        <RBXScriptSignal name="Paused"><![CDATA[Signal Paused]]></RBXScriptSignal>
+        <bool name="RobloxLocked">false</bool>
+        <bool name="PlayOnRemove">false</bool>
+      </Properties>
+      <Item class="DistortionSoundEffect" referent="1">
+        <Properties>
+          <string name="Name"><![CDATA[DistortionSoundEffect]]></string>
+          <string name="ClassName"><![CDATA[DistortionSoundEffect]]></string>
+          <bool name="RobloxLocked">false</bool>
+          <double name="SourceAssetId">-1</double>
+          <bool name="Archivable">true</bool>
+        </Properties>
+      </Item>
+      <Item class="EchoSoundEffect" referent="1">
+        <Properties>
+          <string name="Name"><![CDATA[EchoSoundEffect]]></string>
+          <string name="ClassName"><![CDATA[EchoSoundEffect]]></string>
+          <bool name="RobloxLocked">false</bool>
+          <double name="SourceAssetId">-1</double>
+          <bool name="Archivable">true</bool>
+        </Properties>
+      </Item>
+      <Item class="ReverbSoundEffect" referent="1">
+        <Properties>
+          <string name="Name"><![CDATA[ReverbSoundEffect]]></string>
+          <string name="ClassName"><![CDATA[ReverbSoundEffect]]></string>
+          <bool name="RobloxLocked">false</bool>
+          <double name="SourceAssetId">-1</double>
+          <bool name="Archivable">true</bool>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="ParticleEmitter" referent="1">
+      <Properties>
+        <NumberSequence name="Size"><![CDATA[0 0.6 0 0.75 0.1 0 1 0.21 0 ]]></NumberSequence>
+        <NumberSequence name="Squash"><![CDATA[0 0 0 0.1 0.8 0 0.14 -0.35 0 0.23 2.1 0 0.35 -0.11 0 0.6 1.56 0 0.75 -1.1 0 0.8 0.3 0 0.89 -2.342 0 0.9 1.53 0 0.93 -0.85 0 0.96 1 0 0.965 -0.09 0 1 0 0 ]]></NumberSequence>
+        <ColorSequence name="Color"><![CDATA[0 0.130249 0.0726717 1 0 1 0.12545 0.0699937 0.963149 0 ]]></ColorSequence>
+        <double name="SourceAssetId">-1</double>
+        <double name="ZOffset">10</double>
+        <double name="TimeScale">1</double>
+        <double name="VelocitySpread">3000</double>
+        <Enum name="Orientation">1</Enum>
+        <Enum name="FlipbookMode">0</Enum>
+        <NumberRange name="Lifetime"><Min>1</Min><Max>1</Max></NumberRange>
+        <NumberRange name="Speed"><Min>50</Min><Max>50</Max></NumberRange>
+        <Enum name="FlipbookLayout">0</Enum>
+        <bool name="Archivable">true</bool>
+        <Vector2 name="SpreadAngle"><![CDATA[3000, 3000]]></Vector2>
+        <bool name="Enabled">true</bool>
+        <Vector3 name="Acceleration"><X>0</X><Y>0</Y><Z>0</Z></Vector3>
+        <NumberRange name="RotSpeed"><Min>5</Min><Max>5</Max></NumberRange>
+        <Enum name="EmissionDirection">1</Enum>
+        <string name="Texture"><![CDATA[rbxassetid://669133414]]></string>
+        <bool name="LockedToPart">true</bool>
+        <double name="Rate">150000000</double>
+        <double name="LightInfluence">0</double>
+        <double name="VelocityInheritance">0</double>
+        <NumberSequence name="Transparency"><![CDATA[0 0.5 0 0.845 0.5 0 1 1 0 ]]></NumberSequence>
+        <string name="Name"><![CDATA[dust thing]]></string>
+        <string name="ClassName"><![CDATA[ParticleEmitter]]></string>
+        <bool name="RobloxLocked">false</bool>
+        <double name="LightEmission">0</double>
+        <NumberRange name="Rotation"><Min>-360</Min><Max>360</Max></NumberRange>
+        <double name="Drag">1000</double>
+      </Properties>
+    </Item>
+    <Item class="Sound" referent="1">
+      <Properties>
+        <double name="Pitch">0.30000001192092896</double>
+        <double name="EmitterSize">10</double>
+        <Enum name="RollOffMode">2</Enum>
+        <double name="SourceAssetId">-1</double>
+        <double name="TimePosition">7.452</double>
+        <double name="PlaybackSpeed">0.30000001192092896</double>
+        <double name="Volume">0.05000000074505806</double>
+        <bool name="Archivable">true</bool>
+        <bool name="Playing">false</bool>
+        <bool name="Looped">true</bool>
+        <double name="PlaybackLoudness">0</double>
+        <double name="MinDistance">10</double>
+        <double name="MaxDistance">400</double>
+        <string name="Name"><![CDATA[cool]]></string>
+        <string name="ClassName"><![CDATA[Sound]]></string>
+        <string name="SoundId"><![CDATA[rbxassetid://5216738441]]></string>
+        <RBXScriptSignal name="Paused"><![CDATA[Signal Paused]]></RBXScriptSignal>
+        <bool name="RobloxLocked">false</bool>
+        <bool name="PlayOnRemove">false</bool>
+      </Properties>
+      <Item class="EchoSoundEffect" referent="1">
+        <Properties>
+          <string name="Name"><![CDATA[EchoSoundEffect]]></string>
+          <string name="ClassName"><![CDATA[EchoSoundEffect]]></string>
+          <bool name="RobloxLocked">false</bool>
+          <double name="SourceAssetId">-1</double>
+          <bool name="Archivable">true</bool>
+        </Properties>
+      </Item>
+      <Item class="ReverbSoundEffect" referent="1">
+        <Properties>
+          <string name="Name"><![CDATA[ReverbSoundEffect]]></string>
+          <string name="ClassName"><![CDATA[ReverbSoundEffect]]></string>
+          <bool name="RobloxLocked">false</bool>
+          <double name="SourceAssetId">-1</double>
+          <bool name="Archivable">true</bool>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="BodyGyro" referent="1">
+      <Properties>
+        <string name="Name"><![CDATA[BodyGyro]]></string>
+        <string name="ClassName"><![CDATA[BodyGyro]]></string>
+        <bool name="RobloxLocked">false</bool>
+        <double name="SourceAssetId">-1</double>
+        <bool name="Archivable">true</bool>
+      </Properties>
+    </Item>
+  </Item>
+</Item>
+</roblox>
