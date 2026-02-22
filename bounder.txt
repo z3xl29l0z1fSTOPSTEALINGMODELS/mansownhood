@@ -63,7 +63,7 @@ end
             obj8334.PlaybackRegion = NumberRange.new(0, 60000)
             obj8334.PlaybackRegionsEnabled = false
             obj8334.PlaybackSpeed = 1
-            obj8334.Playing = true
+            obj8334.Playing = false
             obj8334.RollOffMaxDistance = 10000
             obj8334.RollOffMinDistance = 10
             obj8334.SoundId = GitSoundID("https://github.com/Kotyara19k-Doorsspawner/mp3/blob/main/ReboundWarning.mp3?raw=true","boundwarn")
